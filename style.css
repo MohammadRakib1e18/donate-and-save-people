@@ -2,26 +2,62 @@ body {
     margin: 0;
 }
 
-.banner {
-    background-image: url(images/donation6.jpg);
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+section{
+    margin-bottom: 20px;
+}
 
+.flexible-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.banner h1{
+
+.banner {
+    background-image: url(images/donation16.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(232, 234, 241);
+
+}
+.banner h1, .donate h1{
     font-size: 3.5em;
-    font-weight: 700;
+    font-weight: 800;
     margin:5px 0;
+}
+p{
+    font-size: 25px;
+}
+
+.gray-color{
+    color: rgb(122, 119, 119);
 }
 
 .banner a{
     text-decoration: none;
+}
+.button{
+    padding: 5px 10px;
+    background-color: rgb(212, 65, 20);
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+}
+.list-item{
+    margin-left: 20px;
+    font-size: 3em;
+    padding:10px 6px;
+}
+
+#donated{
+    border: 2px solid red;
+    background-color: rgba(240, 168, 168, 0.329);;
 }
