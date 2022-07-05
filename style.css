@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.banner {
+    background-image: url(images/donation6.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    font-size: 3.5em;
+    font-weight: 700;
+    margin:5px 0;
+}
+
+.banner a{
+    text-decoration: none;
+}
