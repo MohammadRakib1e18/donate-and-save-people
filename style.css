@@ -103,3 +103,25 @@ a {
     background-color: #FFF4D6;
     border-top-color: #e4d5ad;
 }
+
+.get-update{
+    background-color: #FFF4D6;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.get-update .input{
+    border: 0;
+    background-color: red;
+    padding: 20px;
+    margin:-4px;
+}
+
+#email{
+    background-color: #D9D9D9;
+}
+#subscribe{
+    background-color: #FF5959;
+}
+
