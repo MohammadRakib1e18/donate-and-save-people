@@ -2,6 +2,26 @@ body {
     margin: 0;
 }
 
+.navbar{
+    background-color: #00050a;
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+
+.navbar .list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0;
+}
+.nav{
+    margin-right: 20px;
+    padding:2px 20px;
+    background-color: #04182c50;
+    border-radius: 5px;
+}
+
 section {
     margin-bottom: 150px;
 }
