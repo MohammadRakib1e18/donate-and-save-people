@@ -2,11 +2,11 @@ body {
     margin: 0;
 }
 
-section{
-    margin-bottom: 20px;
+section {
+    margin-bottom: 50px;
 }
 
-.flexible-container{
+.flexible-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,25 +21,22 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(232, 234, 241);
-
 }
-.banner h1, .donate h1{
+.banner h1,
+.donate h1 {
     font-size: 3.5em;
     font-weight: 800;
-    margin:5px 0;
+    margin: 5px 0;
 }
-p{
+p {
     font-size: 25px;
 }
 
-.gray-color{
+.gray-color {
     color: rgb(122, 119, 119);
 }
 
-.banner a{
-    text-decoration: none;
-}
-.button{
+.button {
     padding: 5px 10px;
     background-color: rgb(212, 65, 20);
     border-radius: 5px;
@@ -47,17 +44,34 @@ p{
     color: white;
 }
 
-.list{
-    list-style-type: none;
-    display: flex;
-}
-.list-item{
-    margin-left: 20px;
-    font-size: 3em;
-    padding:10px 6px;
+a{
+    text-decoration: none;
 }
 
-#donated{
+.list {
+    list-style-type: none;
+    display: flex;
+    font-family: "Merriweather", serif;
+}
+.list-item {
+    margin-left: 20px;
+    font-size: 2.5em;
+    padding: 10px 6px;
+}
+
+#donated {
     border: 2px solid red;
-    background-color: rgba(240, 168, 168, 0.329);;
+    background-color: rgba(240, 168, 168, 0.329);
+}
+
+.form{
+    width:40%;
+    border-bottom: 1px solid rgb(46, 45, 45);
+    text-align: center;
+    margin:2% 0;
+}
+
+.input{
+    border: 0;
+    font-size: 1em;
 }
