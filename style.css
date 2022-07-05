@@ -27,6 +27,7 @@ h1 {
     font-weight: 800;
     margin: 5px 0;
 }
+
 p {
     font-size: 25px;
 }
@@ -34,6 +35,7 @@ p {
 .gray-color {
     color: rgb(122, 119, 119);
 }
+
 
 .button {
     padding: 5px 10px;
@@ -104,10 +106,13 @@ a {
     border-top-color: #e4d5ad;
 }
 
-.get-update{
+.update-form{
     background-color: #FFF4D6;
-    width: 85%;
-    margin: 0 auto;
+    width: 70%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
