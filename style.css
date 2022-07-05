@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .flexible-container {
@@ -22,8 +22,7 @@ section {
     background-size: cover;
     color: rgb(232, 234, 241);
 }
-.banner h1,
-.donate h1 {
+h1 {
     font-size: 3.5em;
     font-weight: 800;
     margin: 5px 0;
@@ -44,7 +43,7 @@ p {
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -64,14 +63,43 @@ a{
     background-color: rgba(240, 168, 168, 0.329);
 }
 
-.form{
-    width:40%;
+.form {
+    width: 40%;
     border-bottom: 1px solid rgb(46, 45, 45);
     text-align: center;
-    margin:2% 0;
+    margin: 2% 0;
 }
 
-.input{
+.input {
     border: 0;
     font-size: 1em;
+}
+
+.plans {
+    flex-direction: row;
+}
+
+.single-plan {
+    background-color: #8d8a8a;
+    margin: 10px 10px;
+    padding: 15px;
+    width: 25%;
+    border-radius: 5px;
+    border-top:5px solid;
+    box-shadow: 3px 7px 40px rgb(129, 125, 125);
+}
+.single-plan p {
+    font-size: 20px;
+}
+#plan1 {
+    background-color: #edf5f6;
+    border-top-color: #71c6d1;
+}
+#plan2 {
+    background-color: #FFEEEE;
+    border-top-color: #e7b4b4;
+}
+#plan3 {
+    background-color: #FFF4D6;
+    border-top-color: #e4d5ad;
 }
